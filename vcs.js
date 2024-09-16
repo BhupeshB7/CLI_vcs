@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import add from "./add.js";
 import commit from "./commit.js";
 import history from "./history.js";

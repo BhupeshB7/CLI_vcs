@@ -10,7 +10,7 @@ This is a basic command-line tool for version control, similar to Git. It helps 
 - **View History**: See a list of all commits.
 
 ## Installation
-
+  
 1. **Clone the Repository**:
 
 ```
@@ -29,18 +29,22 @@ git clone <repository-url>
 
 - Initialize a new VCS repository in your current directory.
 
+```
+node vcs.js init
+```
+
 2. Add Files
 
-- Add all files in the current directory to the staging area:
+   - Add all files in the current directory to the staging area:
 
-```
-node vcs.js add .
-```
+     ```
+     node vcs.js add .
+     ```
 
-- Add a specific file to the staging area:
-  ```
-  node vcs.js add <filename>
-  ```
+   - Add a specific file to the staging area:
+     ```
+     node vcs.js add <filename>
+     ```
 
 3. Commit Changes
    Commit the staged files with a commit message:
@@ -54,7 +58,3 @@ node vcs.js add .
    ```
    node vcs.js history
    ```
-
-```
-
-```
