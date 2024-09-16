@@ -1,0 +1,14 @@
+{
+  "name": "vcs-cli",
+  "version": "1.0.0",
+  "description": "A simple version control system like Git.",
+  "main": "vcs.js",
+  "type": "module",
+  "bin": {
+    "vcs": "./vcs.js"
+  },
+  "scripts": {
+    "start": "node vcs.js"
+  },
+  "dependencies": {}
+}
