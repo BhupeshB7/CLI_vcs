@@ -24,37 +24,41 @@ git clone <repository-url>
 ```
 
 # Commands
+1. Set globally vcs *one time*
+    ```
+    npm link
+    ```
 
-1. Initialize Repository
+2. Initialize Repository
 
 - Initialize a new VCS repository in your current directory.
 
-```
-node vcs.js init
-```
+      ```
+      vcs init
+      ```
 
-2. Add Files
+3. Add Files
 
    - Add all files in the current directory to the staging area:
 
      ```
-     node vcs.js add .
+     vcs add . 
      ```
 
    - Add a specific file to the staging area:
      ```
-     node vcs.js add <filename>
+     vcs add <filename>
      ```
 
-3. Commit Changes
+4. Commit Changes
    Commit the staged files with a commit message:
 
    ```
-   node vcs.js commit "<commit message>"
+   vcs commit "<commit message>"
    ```
 
-4. View Commit History
+5. View Commit History
    Display a list of all commits:
    ```
-   node vcs.js history
+   vcs history
    ```
